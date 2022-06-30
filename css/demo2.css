@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+
+
+
+
+body { 
+	color: #555; 
+	}
+
+
+a { 
+	color: #bb2c66; 
+	}
+
+
+a:hover {
+ 	color: #bb2c66
+	}
+.cool-link {
+	background-image: linear-gradient(transparent 88%, #bb2c66 12%);
+	}	
+
+
+
+h1, h2, h3, h4, h5, h6, blockquote {
+    color: #222;
+	}
+	
+
+
+.home-text-container {
+    background: #bb2c66;
+	}
+
+
+.home-logo-center,
+.home-logo-left,
+.home-logo-right {
+	font-weight: 300;
+	}
+
+
+.home-menu {
+	font-family: 'Major Mono Display', monospace; 
+	}
+
+
+h1, .entry-title { 
+	font-weight: 700; 
+	}
+
+
+
+.button:after,
+input[type=submit]:hover, 
+input[type=button]:hover, 
+.more-link:after,
+button:hover, 
+.pagination a:hover,
+.navigation a:hover,
+.event:nth-of-type(2):after,
+.elementor-widget:nth-of-type(2) .event:after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar,
+.media-date,
+.home-menu .item-name::before,
+.home-menu .item-name::after,
+.overlay-2,
+.mfp-bg  {
+ 	background-color: #bb2c66;
+	}
+*::-webkit-scrollbar-thumb {
+	background-color: #bb2c66;
+	}
+.bypostauthor > article,
+.event h3,
+input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
+textarea:focus, 
+input:focus, 
+select:focus,
+.tabs .tab-titles li a.active,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a {
+	border-color: #bb2c66
+	}
+.event h3,
+.entry-title a:hover,
+input[type=submit], 
+input[type=button], 
+button, 
+.button,
+.more-link,
+.navigation a,
+.filters .current .cool-link {
+	color: #bb2c66
+	}
+#nprogress .spinner-icon {
+  	border-top-color: #bb2c66; border-left-color: #bb2c66;
+	}
+
+
+
+
+	.mfp-bg  {
+		background-color: rgba(0, 0, 0, 0.733);
+	   }
+
+
+
+
+
