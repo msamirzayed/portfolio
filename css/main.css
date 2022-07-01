@@ -2733,7 +2733,7 @@ button.mfp-arrow-right:before {
 	}
 	
 .p-overlay .portfolio-single .entry-header {
-	padding-top: calc(5em + 4vw);
+	padding-top: calc(4em + 4vw);
 	}
 .p-overlay-on {
  	overflow: hidden;
@@ -2766,7 +2766,7 @@ button.mfp-arrow-right:before {
 	}
 
 .portfolio-desc {
-	max-width: 640px; margin: 0 auto 5em;
+	max-width: 640px; margin: 0 auto 1em;
 	}
 .portfolio-meta {
 	font-size: 15px; display: flex; margin: 32px 0;
