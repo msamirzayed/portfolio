@@ -913,7 +913,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
 
 /* CLOSE LINK */
 .close-page {
-	border-radius: 50%;
+	
     
   	position: fixed; z-index: 550; top: 0; left: 50%; margin-left:-33px; display: block; width: 61px; height: 61px; cursor: pointer; background: #1b1b1b; transform: translateY(-100%); transition: transform .4s; transition-delay: .4s;
 	}
