@@ -1864,6 +1864,7 @@ button:not(.button):hover {
           a.social-link#cvcv:hover {
             color: #bb2c66;
           }
+	
 /* GRID PAGE */
 .show-grid div {
  	font-size: .8em; padding-top: .9em; padding-bottom: .9em; text-align: center; margin-bottom: 1.4em; border: 1px solid #EAEEEF;
