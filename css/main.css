@@ -1675,7 +1675,7 @@ html.one-page-layout:not(.is-ajax-page-visible) .media-grid .media-cell {
   visibility: visible;
 }
 .bg-music-confirm p {
-  opacity: 0.5;
+  opacity: 0.7;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
