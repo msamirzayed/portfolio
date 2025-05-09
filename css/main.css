@@ -1131,7 +1131,6 @@ textarea,
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
-  animation: marquee 50s linear infinite;
   height: 25px;
   width: 360px;
   font-size: calc(12px + 0.14vw);
@@ -1141,14 +1140,23 @@ textarea,
   color: #fff;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.44);
 }
+
+.home-marquee span {
+  display: inline-block;
+  padding-left: 100%; /* Push text outside at start */
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
 @keyframes marquee {
   0% {
-    text-indent: 14em;
+    transform: translateX(0%);
   }
   100% {
-    text-indent: -105em;
+    transform: translateX(-100%);
   }
 }
+
 
 /* Home Job Title */
 .home-job-title {
@@ -7718,6 +7726,38 @@ button.mfp-arrow-right:before {
 
 	
     -------------------------------------------- */
+    .image-frame {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  border: 2px solid #d8cd7d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-frame::before,
+.image-frame::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid #f4ecb2;
+  border-radius: 12px;
+  mix-blend-mode: difference;
+  animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0, 0); }
+}
+
 body {
   color: #605561;
 }
