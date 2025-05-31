@@ -9,7 +9,7 @@
   var first_load = true;
   var userClickedAutoplayDialog = false;
   var homeLoaded = false;
-  var autoplay = false;
+  var autoplay = false; // Disable autoplay by default
 
   $(function () {
     one_page_content = $(".one-page-content");
@@ -31,8 +31,6 @@
     }
 
     if ($("html").hasClass("one-page-layout")) {
-      autoplay = $("#play-music").hasClass("autoplay") ? true : false;
-
       $(".home-menu a").each(function (index, element) {
         var menu_link = $(this);
         var file_url = menu_link.attr("href");
@@ -171,21 +169,7 @@
 
     setup();
 
-    if (autoplay) {
-      $(".bg-music-confirm").addClass("show");
-      $(".bg-music-confirm a").on("click", function () {
-        userClickedAutoplayDialog = true;
-        $(".bg-music-confirm").removeClass("show");
-
-        if ($(this).hasClass("bg-music-no")) {
-          isUserTurnedOffMusic = true;
-        }
-
-        if (homeLoaded) {
-          initializeHome();
-        }
-      });
-    }
+    // Removed autoplay confirmation dialog
   });
 
   $(window).on("load", function () {
